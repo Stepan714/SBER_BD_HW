@@ -43,13 +43,13 @@ db.titanic.find({ "Survived": 1 });
 db.titanic.find({ "Sex": "female" });
 ```
 
-<image src="/images/find.jpg" alt="Поиск1">
-<image src="/images/find1.jpg" alt="Поиск2">
+<image src="/images/find1.jpg" alt="Поиск1">
+<image src="/images/find2.jpg" alt="Поиск2">
 
 - UPDATE:
 
 <image src="/images/update.jpg" alt="Изменение">
-<image src="/images/update2.jpg" alt="Результат Изменения">
+<image src="/images/update1.jpg" alt="Результат Изменения">
 
 - DELETE:
 
