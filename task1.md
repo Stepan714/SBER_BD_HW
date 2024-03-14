@@ -60,7 +60,7 @@ db.titanic.find({ "Sex": "female" });
 
 ## Индексы
 Посмотрим на анализ запроса на поиск до создания индекса:
-<div class="boxed">
+```
 > db.titanic.find({ "Sex": "male" }).explain("executionStats")
 {
 	"queryPlanner" : {
@@ -117,12 +117,12 @@ db.titanic.find({ "Sex": "female" });
 	},
 	"ok" : 1
 }
-<div class="boxed">
+```
 
 Далее создаем индекс и смотрим на результат запроса:
 <image src="/images/index.jpg" alt="Создание индекса">
 
-<div class="boxed1">
+```
 > db.titanic.find({ "Sex": "male" }).explain("executionStats")
 {
 	"queryPlanner" : {
@@ -223,7 +223,7 @@ db.titanic.find({ "Sex": "female" });
 	},
 	"ok" : 1
 }
-<div class="boxed1">
+```
 
 
 Сравнение:
