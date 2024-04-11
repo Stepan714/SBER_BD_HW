@@ -40,7 +40,10 @@ curl -X POST \
 <image src="../images/step3.jpg">
 ___
 ### После всего этого вставляем ссылку и настраиваем CORS:
+```
 http://localhost:5984/_utils/
+```
+  
 <image src="../images/step4.jpg">
 ____
 
