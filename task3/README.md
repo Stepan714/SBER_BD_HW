@@ -19,7 +19,7 @@ docker run -d \
 <image src="../images/step2.jpg">
 
 ```
-curl -X PUT http://stepan:123@localhost:5984/couchdb
+curl -X PUT http://YOUR_NAME:YOUR_PASSWORD@localhost:5984/couchdb
 ```
 Затем в .html файле изменяем это: 
 ```
