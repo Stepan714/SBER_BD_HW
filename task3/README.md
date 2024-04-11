@@ -3,7 +3,7 @@
 docker pull couchdb
 ```
 
-<image src="../images/step1.jpg"
+<image src="../images/step1.jpg">
 ____
 
 ### Далее запускаем контейнер с проставленными admin и password и создаем БД:
@@ -16,7 +16,7 @@ docker run -d \
   -e COUCHDB_PASSWORD=YOUR_PASSWORD \     
   couchdb
 ```
-<image src="../images/step2.jpg"
+<image src="../images/step2.jpg">
 
 ```
 curl -X PUT http://stepan:123@localhost:5984/couchdb
@@ -37,13 +37,13 @@ curl -X POST \
       }'
 ```
 
-<image src="../images/step3.jpg"
+<image src="../images/step3.jpg">
 ___
 ### После всего этого вставляем ссылку и настраиваем CORS:
 http://localhost:5984/_utils/
-<image src="../images/step4.jpg"
+<image src="../images/step4.jpg">
 ____
 
 ### Далее открываем .html файл:
-<image src="../images/step5.jpg"
+<image src="../images/step5.jpg">
 
