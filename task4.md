@@ -13,11 +13,11 @@
 ----
 ### Инструменты взаимодействия с Stardog
 1. Stardog Studio
-<image src="../images/stardog_web1.jpg">
+<image src="./images/stardog_web1.jpg">
 Нужно подтвердить почту для Stardog Cloud и далее перейти в Stardog Studio
-<image src="../images/stardog_web2.jpg">
+<image src="./images/stardog_web2.jpg">
 2. Stardog CLI
-<image src="../images/stardog_cli.jpg">
+<image src="./images/stardog_cli.jpg">
 3. Java API
 4. Stardog HTTP API
 
@@ -33,9 +33,9 @@ Stardog использует графовую СУБД, которая осно�
 ### Как устроен язык запрос в Stardog:
 Язык запросов в Stardog называется SPARQL
 Создаем БД в виде ttl файла (я создал books.ttl):
-<image src="../images/stardog_ttl.jpg">
+<image src="./images/stardog_ttl.jpg">
 Далее загружаем этот файл в Stardog Studio (либо можно через CLI, если вы пользуетесь этим способом). После пишем запрос на языке SPARQL:
-<image src="../images/stardog_query.jpg">
+<image src="./images/stardog_query.jpg">
 
 ---
 ### Распределение файлов БД по разным носителям в STARDOG
@@ -46,7 +46,7 @@ Stardog не поддерживает распределение данных п
 ### На каком языке написан Stardog:
 В источниках написано, что используется: Java, Kotlin и другие технологии на основе JVM (Java Virtual Machine)
 На гитхабе:
-<image src="../images/stardog_lan.jpg">
+<image src="./images/stardog_lan.jpg">
 
 ---
 ### Типы поддерживаемых индексов:
